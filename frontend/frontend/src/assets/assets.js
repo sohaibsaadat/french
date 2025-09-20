@@ -1,69 +1,78 @@
-import img10 from "./img10.jpg";
-import img11 from "./img11.jpg";
-import img12 from "./img12.jpg";
-import img13 from "./img13.jpg";
-import img14 from "./img14.jpg";
-import img15 from "./img15.jpg";
-import img16 from "./img16.jpg";
-import img17 from "./img17.jpg";
-import img18 from "./img18.jpg";
-import img19 from "./img19.jpg";
-import img20 from "./img20.jpg";
-import img21 from "./img21.jpg";
-import img22 from "./img22.jpg";
-import img23 from "./img23.jpg";
-import img24 from "./img24.jpg";
-import img25 from "./img25.jpg";
-import img26 from "./img26.jpg";
-import img27 from "./img27.jpg";
-import img28 from "./img28.jpg";
-import img29 from "./img29.jpg";
-import img30 from "./img30.jpg";
-import img31 from "./img31.jpg";
-import img32 from "./img32.jpg";
-import img33 from "./img33.jpg";
-import img34 from "./img34.jpg";
-import img35 from "./img35.jpg";
-import img36 from "./img36.jpg";
-import img37 from "./img37.jpg";
-import img38 from "./img38.jpg";
-import img39 from "./img39.jpg";
-import img40 from "./img40.jpg";
-import img41 from "./img41.jpg";
-import img46 from "./img46.jpg";
-import img47 from "./img47.jpg";
-import img48 from "./img48.jpg";
-import img49 from "./img49.jpg";
-import img50 from "./img50.jpg";
-import img51 from "./img51.jpg";
-import img52 from "./img52.jpg";
-import img53 from "./img53.jpg";
-import img57 from "./img57.jpg";
+import img1 from "./img1.png";
+import img2 from "./img2.png";
+import img3 from "./img3.png";
+import img4 from "./img4.png";
+import img5 from "./img5.png";
+import img6 from "./img6.png";
+import img7 from "./img7.png";
+import img8 from "./img8.png";
+import img9 from "./img9.png";
+import img10 from "./img10.png";
+import img11 from "./img11.png";
+import img12 from "./img12.png";
+import img13 from "./img13.png";
+import img14 from "./img14.png";
+import img15 from "./img15.png";
+import img16 from "./img16.png";
+import img17 from "./img17.png";
+import img18 from "./img18.png";
+import img19 from "./img19.png";
+import img20 from "./img20.png";
+import img21 from "./img21.png";
+import img22 from "./img22.png";
+import img23 from "./img23.png";
+import img24 from "./img24.png";
+import img25 from "./img25.png";
+import img26 from "./img26.png";
+import img27 from "./img27.png";
+import img28 from "./img28.png";
+import img29 from "./img29.png";
+import img30 from "./img30.png";
+import img31 from "./img31.png";
+import img32 from "./img32.png";
+import img33 from "./img33.png";
+import img34 from "./img34.png";
+import img35 from "./img35.png";
+import img36 from "./img36.png";
+import img37 from "./img37.png";
+import img38 from "./img38.png";
+import img39 from "./img39.png";
+import img40 from "./img40.png";
+import img41 from "./img41.png";
+import img46 from "./img46.png";
+import img47 from "./img47.png";
+import img48 from "./img48.png";
+import img49 from "./img49.png";
+import img50 from "./img50.png";
+import img51 from "./img51.png";
+import img52 from "./img52.png";
+import img53 from "./img53.png";
+import img57 from "./img57.png";
 // Hero Banners
-import hero1 from "../assets/hero1.jpg";
-import hero2 from "../assets/hero2.jpg";
-import hero3 from "../assets/hero3.jpg";
-import hero4 from "../assets/hero4.jpg";
-import hero5 from "../assets/hero5.jpg";
-import hero6 from "../assets/hero6.jpg";
+import hero1 from "../assets/hero1.png";
+import hero2 from "../assets/hero2.png";
+import hero3 from "../assets/hero3.png";
+import hero4 from "../assets/hero4.png";
+import hero5 from "../assets/hero5.png";
+import hero6 from "../assets/hero6.png";
 
 // Home Collections
-import home_collection1 from "../assets/home_collection1.jpg";
-import home_collection2 from "../assets/home_collection2.jpg";
-import home_collection3 from "../assets/home_collection3.jpg";
+import home_collection1 from "../assets/home_collection1.png";
+import home_collection2 from "../assets/home_collection2.png";
+import home_collection3 from "../assets/home_collection3.png";
 
 // Logos
 import logo_black from "../assets/logo_black.png";
 import logo_white from "../assets/logo_white.png";
 
 // Middle Section
-import middle_black1 from "../assets/middle_black1.jpg";
-import middle_black2 from "../assets/middle_black2.jpg";
-import middle_black3 from "../assets/middle_black3.jpg";
+import middle_black1 from "../assets/middle_black1.png";
+import middle_black2 from "../assets/middle_black2.png";
+import middle_black3 from "../assets/middle_black3.png";
 
 // Extra
-import shop_the_look from "../assets/shop_the_look.jpg";
-import sneaker_hero from "../assets/sneaker_hero.jpg";
+import shop_the_look from "../assets/shop_the_look.png";
+import sneaker_hero from "../assets/sneaker_hero.png";
 
 // Export all
 export {
@@ -607,10 +616,10 @@ const products = [
     discount_percent: 10,
   },
   { _id: "p41", name: "Product 41", description: "Description 41", price: 500, pricestrike: 600, image: [img41], category: "Accessories", subcategory: "Watches", sizes: [], discount: true, discount_percent: 10 },
-{ _id: "p42", name: "Product 42", description: "Description 42", price: 550, pricestrike: 650, image: [img39], category: "Women", subcategory: "Bottomwear", sizes: ["S","M","L"], discount: false, discount_percent: 0 },
-{ _id: "p43", name: "Product 43", description: "Description 43", price: 600, pricestrike: 700, image: [img30], category: "Men", subcategory: "Shoes", sizes: ["7","8","9","10"], discount: true, discount_percent: 25 },
-{ _id: "p44", name: "Product 44", description: "Description 44", price: 650, pricestrike: 750, image: [img35], category: "Kids", subcategory: "Clothing", sizes: ["XS","S"], discount: false, discount_percent: 0 },
-{ _id: "p45", name: "Product 45", description: "Description 45", price: 700, pricestrike: 800, image: [img25], category: "Accessories", subcategory: "Bags", sizes: [], discount: true, discount_percent: 30 },
+{ _id: "p42", name: "Product 42", description: "Description 42", price: 550, pricestrike: 650, image: [img42], category: "Women", subcategory: "Bottomwear", sizes: ["S","M","L"], discount: false, discount_percent: 0 },
+{ _id: "p43", name: "Product 43", description: "Description 43", price: 600, pricestrike: 700, image: [img43], category: "Men", subcategory: "Shoes", sizes: ["7","8","9","10"], discount: true, discount_percent: 25 },
+{ _id: "p44", name: "Product 44", description: "Description 44", price: 650, pricestrike: 750, image: [img44], category: "Kids", subcategory: "Clothing", sizes: ["XS","S"], discount: false, discount_percent: 0 },
+{ _id: "p45", name: "Product 45", description: "Description 45", price: 700, pricestrike: 800, image: [img45], category: "Accessories", subcategory: "Bags", sizes: [], discount: true, discount_percent: 30 },
 { _id: "p46", name: "Product 46", description: "Description 46", price: 750, pricestrike: 850, image: [img46], category: "Men", subcategory: "Formal", sizes: ["M","L","XL"], discount: false, discount_percent: 0 },
 { _id: "p47", name: "Product 47", description: "Description 47", price: 800, pricestrike: 900, image: [img47], category: "Women", subcategory: "Topwear", sizes: ["S","M"], discount: true, discount_percent: 20 },
 { _id: "p48", name: "Product 48", description: "Description 48", price: 850, pricestrike: 950, image: [img48], category: "Kids", subcategory: "Shoes", sizes: ["6","7"], discount: false, discount_percent: 0 },
@@ -619,9 +628,9 @@ const products = [
 { _id: "p51", name: "Product 51", description: "Description 51", price: 1000, pricestrike: 1100, image: [img51], category: "Women", subcategory: "Bottomwear", sizes: ["S","M","L"], discount: true, discount_percent: 20 },
 { _id: "p52", name: "Product 52", description: "Description 52", price: 1050, pricestrike: 1150, image: [img52], category: "Kids", subcategory: "Clothing", sizes: ["XS","S","M"], discount: false, discount_percent: 0 },
 { _id: "p53", name: "Product 53", description: "Description 53", price: 1100, pricestrike: 1200, image: [img53], category: "Accessories", subcategory: "Sunglasses", sizes: [], discount: true, discount_percent: 10 },
-{ _id: "p54", name: "Product 54", description: "Description 54", price: 1150, pricestrike: 1250, image: [img41], category: "Men", subcategory: "Shirts", sizes: ["M","L"], discount: false, discount_percent: 0 },
-{ _id: "p55", name: "Product 55", description: "Description 55", price: 1200, pricestrike: 1300, image: [img10], category: "Women", subcategory: "Topwear", sizes: ["S","M","L"], discount: true, discount_percent: 25 },
-{ _id: "p56", name: "Product 56", description: "Description 56", price: 1250, pricestrike: 1350, image: [img23], category: "Kids", subcategory: "Shoes", sizes: ["6","7","8"], discount: false, discount_percent: 0 },
+{ _id: "p54", name: "Product 54", description: "Description 54", price: 1150, pricestrike: 1250, image: [img54], category: "Men", subcategory: "Shirts", sizes: ["M","L"], discount: false, discount_percent: 0 },
+{ _id: "p55", name: "Product 55", description: "Description 55", price: 1200, pricestrike: 1300, image: [img55], category: "Women", subcategory: "Topwear", sizes: ["S","M","L"], discount: true, discount_percent: 25 },
+{ _id: "p56", name: "Product 56", description: "Description 56", price: 1250, pricestrike: 1350, image: [img56], category: "Kids", subcategory: "Shoes", sizes: ["6","7","8"], discount: false, discount_percent: 0 },
 { _id: "p57", name: "Product 57", description: "Description 57", price: 1300, pricestrike: 1400, image: [img57], category: "Accessories", subcategory: "Watches", sizes: [], discount: true, discount_percent: 20 },
 ];
 

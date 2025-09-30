@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { logo_black } from "../assets/assets.js";
+import { home_collection1, logo_black } from "../assets/assets.js";
 import { Search, ShoppingCart, User2Icon } from "lucide-react";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
     {
       name: "men",
       title: ["Formal", "Casual", "Sandals", "Sneaker", "Slipper"],
-      src: "home_collection1.png",
+      src: home_collection1,
     },
     {
       name: "women",
@@ -34,12 +34,12 @@ const Navbar = () => {
   const handleMouseLeave = () => {
     timeoutRef.current = setTimeout(() => {
       setHover(null);
-    }, 200); // delay (200ms)
+    }, .5); // delay (200ms)
   };
 
   return (
-    <div>
-      <div className="flex m-5 justify-center items-center relative">
+    <div className="p-5 bg-transparent    ">
+      <div className="flex   justify-center items-center relative">
         {/* Logo + Nav Items */}
         <div className="gap-5 flex flex-col">
           <div className="flex h-auto justify-center items-center">
@@ -72,22 +72,31 @@ const Navbar = () => {
       </div>
 
       {/* Submenu Section */}
-      {hover && (
-        <div
-          onMouseEnter={() => handleMouseEnter(hover)}
-          onMouseLeave={handleMouseLeave}
-          className={` p-4 cursor-pointer transition-all duration-500 ${
-            hover ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-3"
-          }`}
-        >
-          <ul className="flex justify-center gap-6">
-            {menu.find((cat) => cat.name === hover)?.title.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
+{/* Submenu Section - SIMPLER VERSION */}
+<div
+  onMouseEnter={() => handleMouseEnter(hover)}
+  onMouseLeave={handleMouseLeave}
+  className={`bg-gray-200 transition-all duration-500 ease-in-out ${
+    hover 
+      ? "opacity-100 max-h-96 py-4" 
+      : "opacity-0 max-h-0 py-0 overflow-hidden"
+  }`}
+>
+  <div className="flex p-4 cursor-pointer">
+    <ul className="flex justify-center gap-6">
+      {menu.find((cat) => cat.name === hover)?.title.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
+    {menu.find((cat) => cat.name === hover)?.src && (
+      <img
+        src={menu.find((cat) => cat.name === hover)?.src}
+        alt={hover}
+        className="w-80 h-80 object-cover mx-auto "
+      />
+    )}
+  </div>
+</div>    </div>
   );
 };
 

@@ -40,12 +40,6 @@ import img52 from "./img52.jpg";
 import img53 from "./img53.jpg";
 import img57 from "./img57.jpg";
 // Hero Banners
-import hero1 from "../assets/hero1.jpg";
-import hero2 from "../assets/hero2.jpg";
-import hero3 from "../assets/hero3.jpg";
-import hero4 from "../assets/hero4.jpg";
-import hero5 from "../assets/hero5.jpg";
-import hero6 from "../assets/hero6.jpg";
 
 // Home Collections
 import home_collection1 from "../assets/home_collection1.jpg";
@@ -67,12 +61,6 @@ import sneaker_hero from "../assets/sneaker_hero.jpg";
 
 // Export all
 export {
-  hero1,
-  hero2,
-  hero3,
-  hero4,
-  hero5,
-  hero6,
   home_collection1,
   home_collection2,
   home_collection3,

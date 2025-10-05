@@ -81,7 +81,7 @@ return (
 </div>
 
     ) : (
-      <div className="p-5 bg-transparent transition-all duration-200">
+      <div className="p-5 hover:bg-white  fixed top-0 z-50 w-full bg-transparent transition-all duration-200">
         <div className="flex justify-center items-center relative">
           {/* Logo + Nav Items */}
           <div className="gap-5 flex flex-col">
@@ -124,7 +124,7 @@ return (
           onMouseLeave={handleMouseLeave}
           className={`transition-all duration-500 ease-in-out ${
             hover
-              ? "opacity-100 max-h-96 py-4"
+              ? "opacity-100 max-h-65 py-2"
               : "opacity-0 max-h-0 py-0 overflow-hidden"
           }`}
         >
